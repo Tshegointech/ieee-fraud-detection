@@ -1,0 +1,33 @@
+# R
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Sensitive
+.env
+.Renviron
+
+# Data — never commit raw data to GitHub
+*.csv
+*.tsv
+*.parquet
+*.feather
+data/
+
+# R model objects — too large for GitHub
+*.rds
+*.RData
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS
+.DS_Store
+Thumbs.db
